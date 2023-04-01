@@ -1,0 +1,115 @@
+ body {
+  border: 3px white;
+  border-style: solid;
+  padding: 10px;
+  background-color: #F7E6FF;
+ }
+ 
+ header {
+  background-color: white; 
+  height: 200px;
+  border-radius: 25px;
+ }   
+
+ .container {
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  float: left;
+ }
+
+ header h1 {
+  margin-top: 8px;
+  font-size: 30px;
+  color: black;
+  text-align: right;
+  font-family: 'PT Serif', serif;
+ }
+
+ .text1 {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+  font-family: 'Hepta Slab', serif;
+  ;
+ }
+
+ .image-container {
+  width: 200px;
+  height: 200px;
+  float: right;
+  position: relative;
+  right: 400px;
+ }
+
+ .image-container img {
+  width:200px;
+  height: 200px;
+  border-radius:100px;
+ }
+
+.seccion-informacion { 
+  background-color: #E6B3FF;
+  border: 1px solid #E1AFFA;
+  margin: 10px; 
+  border-style: inset;
+  border-radius: 25px;
+}
+
+.titulo-secundario {
+ color: #2A0033;
+ font-size: 20px;
+ text-align: center;
+ font-weight: bold;
+ font-family: 'Cormorant Garamond', serif;
+}
+
+.text2 {
+ margin: 10px;
+ font-size: 18px;
+ color: black;
+ text-align: center;
+ font-family: 'EB Garamond', serif;
+}
+
+.habilidades {
+  background-color: #E6B3FF;
+  border: 1px solid #E1AFFA;
+  margin: 10px; 
+  border-style: inset;
+  border-radius: 25px;
+  align-items: center;
+}
+
+#hidetextbtn {
+  color: #2A0033;
+  border: 1px solid #E1AFFA;
+  position: relative;
+  left: 795px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  border-radius: 15px;
+}
+
+.textskills {
+ margin: 10px;
+ font-size: 18px;
+ color: black;
+ text-align: center;
+ font-family: 'EB Garamond', serif;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+
+
