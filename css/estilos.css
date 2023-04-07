@@ -52,9 +52,8 @@
 
 .seccion-informacion { 
   background-color: #E6B3FF;
-  border: 1px solid #E1AFFA;
+  border: 2px solid #E1AFFA;
   margin: 10px; 
-  border-style: inset;
   border-radius: 25px;
 }
 
@@ -76,38 +75,38 @@
 
 .habilidades {
   background-color: #E6B3FF;
-  border: 1px solid #E1AFFA;
+  border: 2px #E1AFFA;
   margin: 10px; 
-  border-style: inset;
+  border-style: ridge;
   border-radius: 25px;
-  align-items: center;
+  text-align: center;
 }
 
-#hidetextbtn {
-  color: #2A0033;
-  border: 1px solid #E1AFFA;
-  position: relative;
-  left: 795px;
+#habilidad {
+ color: #884EA0;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: 'Cormorant Garamond', serif;
+}
+
+#boton-desplegar {
+  color: #CD6155 ;
+  background-color: #FAE5D3;
+  border: 1px solid #FAE5D3;
   font-size: 20px;
   font-weight: bold;
   font-family: 'Cormorant Garamond', serif;
   border-radius: 15px;
 }
 
-.textskills {
- margin: 10px;
- font-size: 18px;
- color: black;
- text-align: center;
- font-family: 'EB Garamond', serif;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
+#boton-ocultar {
+  color: #CD6155 ;
+  background-color: #FAE5D3;
+  border: 1px solid #FAE5D3;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  border-radius: 15px;
 }
 
 
