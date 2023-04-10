@@ -24,7 +24,7 @@
   font-size: 30px;
   color: black;
   text-align: right;
-  font-family: 'Hepta Slab', serif;
+  font-family: 'PT Serif', serif;
  }
 
  .text1 {
@@ -41,7 +41,7 @@
   height: 200px;
   float: right;
   position: relative;
-  right: 400px;
+  right: 320px;
  }
 
  .image-container img {
@@ -79,6 +79,8 @@
   margin: 10px; 
   border-radius: 25px;
   text-align: center;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
 }
 
 #habilidad {
@@ -108,6 +110,11 @@
   border-radius: 15px;
 }
 
+#iconos {
+  margin-bottom: 15px;
+  color: #884EA0;
+  font-size: 18px;
+}
 
 
 
